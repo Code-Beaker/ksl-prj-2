@@ -83,6 +83,7 @@ p {
 .nav-link:hover {
   color: white;
   text-decoration: underline;
+  text-decoration-thickness: 2px;
   background: black;
 }
 
@@ -140,6 +141,7 @@ p {
 
 .btn:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
   opacity: 0.8;
 }
 
