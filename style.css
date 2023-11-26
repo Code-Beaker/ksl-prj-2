@@ -90,6 +90,7 @@ p {
 .hero-title {
   font-size: 2.75rem;
   margin-bottom: 1rem;
+  text-transform: capitalize;
 }
 
 .hero-img img {
