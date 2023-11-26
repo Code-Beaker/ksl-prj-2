@@ -151,7 +151,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 3.5rem 0;
 }
 
 .img-item {
@@ -294,11 +294,14 @@ textarea {
   grid-template-columns: 2fr 2fr 3fr;
   grid-template-rows: 300px 350px 300px;
   gap: 1rem;
-  padding: 2rem 0;
+  padding: 3.5rem 0;
 }
 
 .glr-item {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 0.5rem;
 }
 .glr-item img {
