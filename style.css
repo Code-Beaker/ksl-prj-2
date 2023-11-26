@@ -171,13 +171,13 @@ p {
 }
 
 footer {
-  background: rgb(0, 0, 25);
+  background: #ddd;
   padding: 3rem;
 }
 
 .footer-grid {
   display: grid;
-  color: #ddd;
+  color: black;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   padding: 2rem 0;
@@ -189,7 +189,7 @@ footer {
 
 .foot-link {
   text-decoration: underline;
-  color: white;
+  color: black;
   display: inline-block;
   margin: 0.5rem 0;
 }
@@ -200,7 +200,7 @@ footer {
 }
 
 .foot-main {
-  color: white;
+  color: black;
   font-size: 1rem;
   text-align: center;
 }
@@ -306,4 +306,27 @@ textarea {
 
 .glr-item:hover img {
   scale: 1.125;
+}
+
+.sect-cols {
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sect-cols article * {
+  text-align: left;
+}
+
+.sect-cols picture {
+  display: flex;
+  max-width: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sect-cols picture img {
+  border-radius: 0.5rem;
+  max-width: 35rem;
 }
