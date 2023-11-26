@@ -35,5 +35,5 @@ See the GitHub repository here:
 Visit the netlify deployment here:
 [ksl-web-prj.netlify.app](https://stellar-kulfi-11151e.netlify.app/contact)
 
-> [!INFO]
-> Do not enter any sensitive information on this website.
+> [!WARNING]
+> Do not enter any sensitive information. Put your security at first.
