@@ -335,3 +335,31 @@ textarea {
   border-radius: 0.5rem;
   max-width: 35rem;
 }
+
+/* newly added flex about section */
+.about-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 3rem 0;
+  gap: 1rem;
+}
+
+.about-grid-item {
+  border: 2px solid rgb(100, 100, 105);
+  color: rgb(0, 0, 125);
+  padding: 1.75rem;
+}
+
+.about-item-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgb(0, 0, 25);
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+hr {
+  margin: 0.5rem 0;
+}
