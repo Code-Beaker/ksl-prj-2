@@ -46,7 +46,7 @@ p {
 
 .nav {
   display: flex;
-  padding: 1rem 1.75rem;
+  padding: 1.5rem 1.75rem;
   justify-content: space-between;
   align-items: center;
   background: white;
@@ -73,8 +73,9 @@ p {
 .nav-link {
   text-decoration: none;
   color: black;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1.75rem;
   border-radius: 3rem;
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 1.125rem;
   display: block;
@@ -113,7 +114,8 @@ p {
 .sect-title {
   text-transform: capitalize;
   text-align: center;
-  font-size: 2.5rem;
+  font-weight: normal;
+  font-size: 2.75rem;
   margin-bottom: 1.25rem;
 }
 
@@ -173,13 +175,16 @@ p {
 }
 
 footer {
-  background: #ddd;
+  background: #101010;
   padding: 3rem;
+}
+
+footer * {
+  color: white;
 }
 
 .footer-grid {
   display: grid;
-  color: black;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   padding: 2rem 0;
@@ -191,7 +196,7 @@ footer {
 
 .foot-link {
   text-decoration: underline;
-  color: black;
+  color: #ddd;
   display: inline-block;
   margin: 0.5rem 0;
 }
@@ -202,7 +207,9 @@ footer {
 }
 
 .foot-main {
-  color: black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: 1rem;
   text-align: center;
 }
